@@ -1,0 +1,28 @@
+.contenedor__slider{
+    @extend %flotadoAncho;
+}
+
+.carousel-control{
+    .svg-inline--fa {
+        position: absolute;
+        top: 50%;
+        font-size: 1.5em;
+    }
+}
+
+#iconoSliderIzquierdo{
+    left: 30%;
+}
+
+#iconoSliderDerecho{
+    right: 30%;
+}
+
+
+@media (max-width: 560px){
+    .carousel-control{
+        .svg-inline--fa {
+            font-size: 1em;
+        }   
+    }
+}

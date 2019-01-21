@@ -1,0 +1,29 @@
+$colorPrimario: #FF7195;
+$colorSecundario: #fff;
+$colorTerciario: #212121;
+
+a {
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+%flotadoAncho {
+    float: left;
+    width: 100%;
+}
+
+%estilosBotones{
+    float: left;
+    margin: 10px 0;
+    padding: 8px 12px;
+    background: $colorPrimario;
+    border: 1px solid $colorPrimario;
+    color: $colorSecundario;
+    &:hover{
+        background: transparent;
+        border: 1px solid $colorTerciario;
+        color: $colorTerciario;            
+    }
+}
