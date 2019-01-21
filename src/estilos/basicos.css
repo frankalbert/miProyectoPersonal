@@ -1,0 +1,132 @@
+/* line 1, src/sass/_cabecera.scss */
+.contenedor__cabecera {
+  padding: 0 1em;
+}
+
+/* line 5, src/sass/_cabecera.scss */
+.cabecera__superior {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 12, src/sass/_cabecera.scss */
+.cabecera__superior .nombre--empresa--cabecera h6 {
+  margin: 0;
+}
+
+/* line 18, src/sass/_cabecera.scss */
+.info--cabecera {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 21, src/sass/_cabecera.scss */
+.info--cabecera .contenedor__enlace__cabecera {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 24, src/sass/_cabecera.scss */
+.info--cabecera .contenedor__enlace__cabecera:hover {
+  text-decoration: none;
+}
+
+/* line 30, src/sass/_cabecera.scss */
+.contenedor__botonera {
+  float: left;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 39, src/sass/_cabecera.scss */
+.contenedor__cabecera__inferior {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 46, src/sass/_cabecera.scss */
+.contenedor__cabecera__inferior .elemento--imagen {
+  padding: 0;
+}
+
+/* line 49, src/sass/_cabecera.scss */
+.contenedor__cabecera__inferior .elemento--texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+@media (max-width: 670px) {
+  /* line 60, src/sass/_cabecera.scss */
+  .cabecera__superior {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  /* line 68, src/sass/_cabecera.scss */
+  .elemento__cabecera__inferior {
+    float: left;
+    width: 100%;
+  }
+}
